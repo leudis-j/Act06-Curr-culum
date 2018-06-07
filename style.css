@@ -5,6 +5,13 @@ body{
 	background-color: lightgrey;
 	margin-left: 1px;
 }
+h1{
+	color: #FF5733;
+
+}
+p{
+	color: #5A5554;
+}
 .tope{
 	margin-top: 5%;
 }
@@ -13,10 +20,12 @@ body{
   font-family: arial;
   padding: 1%;
   background-color: #fff;
+  font-size: 2vh;
  }
  .head{
  	border-bottom: 2px solid lightgrey;
  	padding: 0px;
+ 	padding-top: 2%;
  	
  }
  .nombre{
@@ -31,6 +40,12 @@ body{
  .title{
  	color: black;
  	
+ }
+ .empresa h2{
+ 	margin-bottom: 0px;
+ }
+ .empresa p{
+ 	margin-top: 0px;
  }
 
  .foto img{
@@ -50,10 +65,18 @@ body{
  h1 .name{
  	color: #FF5733;
  }
+ .profecion{
+ 	background-color: lightgrey;
+ 	margin-bottom: 5%;
+ 	padding-left: 5%;
+    box-sizing: border-box
+
+ }
  .skills{
  	background-color: #FF5733;
  	padding: 5px;
  	display: inline-block;
+ 	color: #fff;
 
  }
  .ruby{
@@ -80,17 +103,26 @@ body{
 	width: 20%;
 	margin-top: 0px;	
 }
+.idiomas{
+	color: #5A5554;
+}
 .nivel{
 	color: #FF5733;
 }
-.idiomas{
+.wrapidiom{
 	display: inline-block;
 }
-.star{
+.star h2{
+	    margin-top: 15px;
+
+}
+.hobbies{
 	display: inline-block;
-	margin-left: 30%;
-	font-size: 3vh;
-	letter-spacing: 10px;
+	background-color: #900C3F;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+
 }
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
 .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
